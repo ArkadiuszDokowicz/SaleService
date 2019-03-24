@@ -1,27 +1,27 @@
 import cashregister.CashRegister;
-/*
+
 //mysql-comment
 import com.util.ConnectionConfig;
 import java.sql.Connection;
 import java.sql.SQLException;
 //end of mysql-comment
-        //it is unreachable without mysql-connector-java-5.1.47
+//it is unreachable without mysql-connector-java-5.1.47
 
-*/
+
 import java.io.IOException;
 
 public class Main {
 
     public static  void main(String[] args) {
         //mysql-comment
-        /*
+        //it is required to download db from mysql server
         Connection connection = null;
         try {
             connection = ConnectionConfig.getConnection();
             if(connection != null){
                 System.out.println("Connection established!");
                 // use the method below to download database from mysql db
-                //DataBase.getInstance().mysqlDbDownload(connection);
+                DataBase.getInstance().mysqlDbDownload(connection);
             }
         }
         catch(Exception e){e.printStackTrace();}
@@ -35,10 +35,10 @@ public class Main {
                 }
             }
         }
-        */ //end of mysql-comment
-        //it is unreachable without mysql-connector-java-5.1.47
+         //end of mysql-comment
 
-        //
+
+        /*  // it reads DB from text file
         try {
 
             // use the method below to download database from text file
@@ -46,10 +46,9 @@ public class Main {
         } catch (IOException e) {
             e.printStackTrace();
         }
-
+        */
         CashRegister cashregister=new CashRegister(DataBase.getInstance().getHashproducts());
         cashregister.goWork();
     }
-
 }
 

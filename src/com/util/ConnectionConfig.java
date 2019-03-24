@@ -1,6 +1,6 @@
 package com.util;
 //mysql jdbc is required to use methods below
-/*
+
 import java.sql.Connection;
 import java.sql.DriverManager;
 
@@ -20,4 +20,4 @@ public class ConnectionConfig {
 
     }
 
-}*/
+}
