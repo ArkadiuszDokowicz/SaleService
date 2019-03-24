@@ -1,13 +1,13 @@
 package com.util;
 //mysql jdbc is required to use methods below
-
+/*
 import java.sql.Connection;
 import java.sql.DriverManager;
 
 public class ConnectionConfig {
     
-    /*
-    public static java.sql.Connection getConnection(){
+
+    public static java.sql.Connection getConnection(){  //it required mysql jdbc driver!
         java.sql.Connection connection = null;
         //try to connect with mysql database
 
@@ -19,5 +19,5 @@ public class ConnectionConfig {
         return connection;
 
     }
-*/ //it required mysql jdbc driver!
-}
+
+}*/
