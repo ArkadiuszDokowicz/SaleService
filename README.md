@@ -1,6 +1,6 @@
 # SaleService
 
-This simple app is simulates how sale point work.
+This simple app simulates how sale point work.
 If connection with db is established you will be able to enter barcodes.
 
 used environment
