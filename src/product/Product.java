@@ -1,4 +1,4 @@
-package product
+package product;
 public class Product {
     private int id;
     private String name;

@@ -1,25 +1,12 @@
-===Baza danych supermarket
-
-== Struktura tabeli dla tabeli products
-
-|------
-|Kolumna|Typ|Null|Ustawienia domyślne
-|------
-|//**ID**//|int(11)|Nie|
-|Name|varchar(64)|Nie|
-|Price|float|Nie|
-|barcode|int(11)|Nie|
-== Zrzut danych tabeli products
-
-|1|CocaCola 330ml|1|449000
-|2|Cisowianka 1.5L|0.99|883233
-|3|Bread 500g|3.99|434004
-|4|Cheese 240g|4.55|772212
-|5|tomato sauce 250g|1.99|443322
-|6|Shrimps 500g|19.99|996553
-|7|Garlic |0.99|339245
-|8|Cumin 50g|1.99|333912
-|9|olive oil 1L|29.99|111555
-|10|coconut milk 500ml|5.99|554443
-|11|Scallops 1Pound|29.99|987654
-|12|Red Wine 750ml|16.99|555440
+1,CocaCola 330ml,1,449000
+2,Cisowianka 1.5L,0.99,883233
+3,Bread 500g,3.99,434004
+4,Cheese 240g,4.55,772212
+5,tomato sauce 250g,1.99,443322
+6,Shrimps 500g,19.99,996553
+7,Garlic ,0.99,339245
+8,Cumin 50g,1.99,333912
+9,olive oil 1L,29.99,111555
+10,coconut milk 500ml,5.99,554443
+11,Scallops 1Pound,29.99,987654
+12,Red Wine 750ml,16.99,555440
