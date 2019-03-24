@@ -1,9 +1,14 @@
 import cashregister.CashRegister;
+/*
+//mysql-comment
 import com.util.ConnectionConfig;
-
-import java.io.IOException;
 import java.sql.Connection;
 import java.sql.SQLException;
+//end of mysql-comment
+        //it is unreachable without mysql-connector-java-5.1.47
+
+*/
+import java.io.IOException;
 
 public class Main {
 
